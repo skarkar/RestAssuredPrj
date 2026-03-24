@@ -52,4 +52,21 @@ public class UserEndpoints {
 		return response;
 	}
 	
+	public static Response loginUser(String username, String password) {
+		Response response = given()
+			.queryParam("username", username)
+			.queryParam("password", password)
+		.when()
+			.get(Routes.login_url);
+		
+		return response;
+	}
+	
+	public static Response logoutUser() {
+		Response response = given()
+		.when()
+			.get(Routes.logout_url);
+		
+		return response;
+	}
 }

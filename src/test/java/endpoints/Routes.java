@@ -10,4 +10,6 @@ public class Routes {
 	public static String get_url = base_url + "/user/{username}";
 	public static String update_url = base_url + "/user/{username}";
 	public static String delete_url = base_url + "/user/{username}";
+	public static String login_url = base_url + "/user/login";
+	public static String logout_url = base_url + "/user/logout";
 }

@@ -64,6 +64,24 @@ public class User_Test {
 	}
 	
 	@Test(priority = 4)
+	public void loginUser_Test() {
+		Response response = UserEndpoints.loginUser(payload.getUsername(), payload.getPassword());
+		
+		response.then().log().all();
+		Assert.assertEquals(response.getStatusCode(), 200);
+		Assert.assertTrue(response.then().extract().jsonPath().get("message").toString().contains("logged in user"));
+	}
+	
+	@Test(priority = 5)
+	public void logoutUser_Test() {
+		Response response = UserEndpoints.logoutUser();
+		
+		response.then().log().all();
+		Assert.assertEquals(response.getStatusCode(), 200);
+		Assert.assertTrue(response.then().extract().jsonPath().get("message").toString().equals("ok"));
+	}
+	
+	@Test(priority = 6)
 	public void deleteUser_Test() {
 		Response response = UserEndpoints.deleteUser(payload.getUsername());
 		
