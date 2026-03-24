@@ -6,6 +6,12 @@
   </listeners>
   <test name="User Endpoints">
     <classes>
+      <class name="test.User_Test"> 
+    </class>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Pet Endpoints">
+    <classes>
       <class name="test.Pet_Test"> 
     </class>
     </classes>
