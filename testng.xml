@@ -4,9 +4,10 @@
   <listeners>
     <listener class-name="utilities.ExtentReportManager"></listener>
   </listeners>
-  <test name="Test">
+  <test name="User Endpoints">
     <classes>
-      <class name="test.User_Test"/>
+      <class name="test.Pet_Test"> 
+    </class>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

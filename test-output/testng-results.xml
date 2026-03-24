@@ -1,41 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-24T17:07:42 IST" name="Suite" finished-at="2026-03-24T17:07:54 IST" duration-ms="11427">
+  <suite started-at="2026-03-24T21:33:21 IST" name="Suite" finished-at="2026-03-24T21:33:32 IST" duration-ms="10788">
     <groups>
     </groups>
-    <test started-at="2026-03-24T17:07:42 IST" name="Test" finished-at="2026-03-24T17:07:54 IST" duration-ms="11427">
-      <class name="test.User_Test">
-        <test-method is-config="true" signature="setPayload()[pri:0, instance:test.User_Test@1e800aaa]" started-at="2026-03-24T17:07:43 IST" name="setPayload" finished-at="2026-03-24T17:07:43 IST" duration-ms="204" status="PASS">
+    <test started-at="2026-03-24T21:33:21 IST" name="User Endpoints" finished-at="2026-03-24T21:33:32 IST" duration-ms="10788">
+      <class name="test.Pet_Test">
+        <test-method is-config="true" signature="setPayload()[pri:0, instance:test.Pet_Test@5bda8e08]" started-at="2026-03-24T21:33:21 IST" name="setPayload" finished-at="2026-03-24T21:33:21 IST" duration-ms="213" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setPayload -->
-        <test-method signature="createUser_Test()[pri:1, instance:test.User_Test@1e800aaa]" started-at="2026-03-24T17:07:43 IST" name="createUser_Test" finished-at="2026-03-24T17:07:46 IST" duration-ms="3347" status="PASS">
+        <test-method signature="addPet_Test()[pri:1, instance:test.Pet_Test@5bda8e08]" started-at="2026-03-24T21:33:21 IST" name="addPet_Test" finished-at="2026-03-24T21:33:25 IST" duration-ms="3922" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createUser_Test -->
-        <test-method signature="getUser_Test()[pri:2, instance:test.User_Test@1e800aaa]" started-at="2026-03-24T17:07:46 IST" name="getUser_Test" finished-at="2026-03-24T17:07:47 IST" duration-ms="1070" status="PASS">
+        </test-method> <!-- addPet_Test -->
+        <test-method signature="getPetByStatus_Test()[pri:2, instance:test.Pet_Test@5bda8e08]" started-at="2026-03-24T21:33:25 IST" name="getPetByStatus_Test" finished-at="2026-03-24T21:33:28 IST" duration-ms="2360" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getUser_Test -->
-        <test-method signature="updateUser_Test()[pri:3, instance:test.User_Test@1e800aaa]" started-at="2026-03-24T17:07:47 IST" name="updateUser_Test" finished-at="2026-03-24T17:07:50 IST" duration-ms="2246" status="PASS">
+        </test-method> <!-- getPetByStatus_Test -->
+        <test-method signature="getPetById_Test()[pri:3, instance:test.Pet_Test@5bda8e08]" started-at="2026-03-24T21:33:28 IST" name="getPetById_Test" finished-at="2026-03-24T21:33:29 IST" duration-ms="1282" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- updateUser_Test -->
-        <test-method signature="loginUser_Test()[pri:4, instance:test.User_Test@1e800aaa]" started-at="2026-03-24T17:07:50 IST" name="loginUser_Test" finished-at="2026-03-24T17:07:51 IST" duration-ms="1795" status="PASS">
+        </test-method> <!-- getPetById_Test -->
+        <test-method signature="updatePet_Test()[pri:4, instance:test.Pet_Test@5bda8e08]" started-at="2026-03-24T21:33:29 IST" name="updatePet_Test" finished-at="2026-03-24T21:33:30 IST" duration-ms="1565" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginUser_Test -->
-        <test-method signature="logoutUser_Test()[pri:5, instance:test.User_Test@1e800aaa]" started-at="2026-03-24T17:07:51 IST" name="logoutUser_Test" finished-at="2026-03-24T17:07:53 IST" duration-ms="1203" status="PASS">
+        </test-method> <!-- updatePet_Test -->
+        <test-method signature="deletePet_Test()[pri:5, instance:test.Pet_Test@5bda8e08]" started-at="2026-03-24T21:33:30 IST" name="deletePet_Test" finished-at="2026-03-24T21:33:32 IST" duration-ms="1095" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- logoutUser_Test -->
-        <test-method signature="deleteUser_Test()[pri:6, instance:test.User_Test@1e800aaa]" started-at="2026-03-24T17:07:53 IST" name="deleteUser_Test" finished-at="2026-03-24T17:07:54 IST" duration-ms="1182" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- deleteUser_Test -->
-      </class> <!-- test.User_Test -->
-    </test> <!-- Test -->
+        </test-method> <!-- deletePet_Test -->
+      </class> <!-- test.Pet_Test -->
+    </test> <!-- User Endpoints -->
   </suite> <!-- Suite -->
 </testng-results>

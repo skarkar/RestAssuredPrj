@@ -1,0 +1,4 @@
+# TestNG specific temporary files
+test-output/
+
+reports/

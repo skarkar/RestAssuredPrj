@@ -12,4 +12,13 @@ public class Routes {
 	public static String delete_url = base_url + "/user/{username}";
 	public static String login_url = base_url + "/user/login";
 	public static String logout_url = base_url + "/user/logout";
+	
+	//Pet Endpoints
+	public static String addPet_url = base_url + "/pet";
+	public static String addPetImage_url = base_url + "/pet/{petid}/uploadImage";
+	public static String getPetByStatus_url = base_url + "/pet/findByStatus";
+	public static String getPetById_url = base_url + "/pet/{petid}";
+	public static String updatePet_url = base_url + "/pet";
+	public static String deletePet_url = base_url + "/pet/{petid}";
+	
 }
