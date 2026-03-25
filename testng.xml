@@ -6,14 +6,19 @@
   </listeners>
   <test name="User Endpoints">
     <classes>
-      <class name="test.User_Test"> 
-    </class>
-    </classes>
+      <class name="test.User_Test"/>
+   	</classes>
   </test> <!-- Test -->
+  
   <test name="Pet Endpoints">
     <classes>
-      <class name="test.Pet_Test"> 
-    </class>
-    </classes>
+      <class name="test.Pet_Test"/>
+	</classes>
+  </test>
+  
+  <test name="Store Endpoints">
+    <classes>
+      <class name="test.Store_Test"/>
+	</classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

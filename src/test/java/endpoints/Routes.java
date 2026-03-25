@@ -21,4 +21,10 @@ public class Routes {
 	public static String updatePet_url = base_url + "/pet";
 	public static String deletePet_url = base_url + "/pet/{petid}";
 	
+	//Store Endpoints
+	public static String getInventory_url = base_url + "/store/inventory";
+	public static String createOrder_url = base_url + "/store/order";
+	public static String getOrder_url = base_url + "/store/order/{orderid}";
+	public static String deleteOrder_url = base_url + "/store/order/{orderid}";
+	
 }

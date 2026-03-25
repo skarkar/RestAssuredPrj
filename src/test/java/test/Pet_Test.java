@@ -7,6 +7,7 @@ import java.util.Map;
 
 import org.json.JSONArray;
 import org.testng.Assert;
+import org.testng.ITestContext;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -22,11 +23,12 @@ public class Pet_Test {
 	Pet payload;
 	
 	@BeforeTest
-	public void setPayload() {
+	public void setPayload(ITestContext context) {
 		f = new Faker();
 		payload = new Pet();
 		
 		payload.setId(f.idNumber().hashCode());
+		context.getSuite().setAttribute("petId", payload.getId()); //capturing the Pet ID value to be used by other Endpoints
 		
 		Map<String, Object> category = new HashMap<String, Object>();
 		category.put("id", f.idNumber().hashCode());
