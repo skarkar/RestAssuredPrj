@@ -1,8 +1,14 @@
-C:\Users\SANJAY\eclipse-workspace\RestAssuredPrj\src\test\java\endpoints\Routes.java
-C:\Users\SANJAY\eclipse-workspace\RestAssuredPrj\src\test\java\endpoints\UserEndpoints.java
-C:\Users\SANJAY\eclipse-workspace\RestAssuredPrj\src\test\java\payloads\User.java
-C:\Users\SANJAY\eclipse-workspace\RestAssuredPrj\src\test\java\test\User_DataDriven.java
-C:\Users\SANJAY\eclipse-workspace\RestAssuredPrj\src\test\java\test\User_Test.java
-C:\Users\SANJAY\eclipse-workspace\RestAssuredPrj\src\test\java\utilities\DataProviders.java
-C:\Users\SANJAY\eclipse-workspace\RestAssuredPrj\src\test\java\utilities\ExcelUtil.java
-C:\Users\SANJAY\eclipse-workspace\RestAssuredPrj\src\test\java\utilities\ExtentReportManager.java
+C:\Users\SANJAY\.jenkins\workspace\REST Assured API Project\src\test\java\endpoints\PetEndpoints.java
+C:\Users\SANJAY\.jenkins\workspace\REST Assured API Project\src\test\java\endpoints\Routes.java
+C:\Users\SANJAY\.jenkins\workspace\REST Assured API Project\src\test\java\endpoints\StoreEndpoints.java
+C:\Users\SANJAY\.jenkins\workspace\REST Assured API Project\src\test\java\endpoints\UserEndpoints.java
+C:\Users\SANJAY\.jenkins\workspace\REST Assured API Project\src\test\java\payloads\Pet.java
+C:\Users\SANJAY\.jenkins\workspace\REST Assured API Project\src\test\java\payloads\Store.java
+C:\Users\SANJAY\.jenkins\workspace\REST Assured API Project\src\test\java\payloads\User.java
+C:\Users\SANJAY\.jenkins\workspace\REST Assured API Project\src\test\java\test\Pet_Test.java
+C:\Users\SANJAY\.jenkins\workspace\REST Assured API Project\src\test\java\test\Store_Test.java
+C:\Users\SANJAY\.jenkins\workspace\REST Assured API Project\src\test\java\test\User_DataDriven.java
+C:\Users\SANJAY\.jenkins\workspace\REST Assured API Project\src\test\java\test\User_Test.java
+C:\Users\SANJAY\.jenkins\workspace\REST Assured API Project\src\test\java\utilities\DataProviders.java
+C:\Users\SANJAY\.jenkins\workspace\REST Assured API Project\src\test\java\utilities\ExcelUtil.java
+C:\Users\SANJAY\.jenkins\workspace\REST Assured API Project\src\test\java\utilities\ExtentReportManager.java
